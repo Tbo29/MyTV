@@ -3,6 +3,8 @@ plugins {
     id 'kotlin-android'
 }
 android {
+    namespace
+    'com.example.androidtvapp'
     compileSdk 34
     defaultConfig {
         applicationId "com.example.androidtvapp"
