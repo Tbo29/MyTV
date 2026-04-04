@@ -28,7 +28,7 @@ jobs:
         uses: gradle/actions/setup-gradle@v4
         
       - name: Build with Gradle
-        run: gradle assembleDebug 
+        run: gradle assembleDebug --warning-mode all
           
       - name: Upload APK Artifact
         # Already on @v4, which is compatible
