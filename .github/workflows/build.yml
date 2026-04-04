@@ -1,6 +1,6 @@
-name: Build APK
-on:
-  push:
+
+nameameameame: Build APK
+obranchesh:
     branches:
       - main
   pull_request:
