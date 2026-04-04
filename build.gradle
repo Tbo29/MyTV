@@ -4,18 +4,6 @@ plugins {
     id 'org.jetbrains.kotlin.android' version '1.9.22' apply false
 }
 
-// ADD THIS AT THE BOTTOM OF THE ROOT FILE
-subprojects {
-    project.configurations.all {
-        resolutionStrategy {
-            force 'androidx.core:core:1.9.0'
-            force 'androidx.core:core-ktx:1.9.0'
-        }
-    }
-}
-
-
-
 
 
 // 
