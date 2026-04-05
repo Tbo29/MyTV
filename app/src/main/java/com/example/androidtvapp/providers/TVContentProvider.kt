@@ -95,7 +95,7 @@ class TVContentProvider : ContentProvider() {
             projection ?: arrayOf(
                 BaseColumns._ID,
                 TvContract.WatchNextPrograms.COLUMN_TITLE,
-                TvContract.WatchNextPrograms.COLUMN_DESCRIPTION,
+                "description",
                 TvContract.WatchNextPrograms.COLUMN_POSTER_ART_URI,
                 "progress_percent",
                 TvContract.WatchNextPrograms.COLUMN_DURATION_MILLIS,
