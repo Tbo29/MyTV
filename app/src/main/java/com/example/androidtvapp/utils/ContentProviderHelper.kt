@@ -15,7 +15,7 @@ object ContentProviderHelper {
             arrayOf(
                 TvContract.Channels._ID,
                 TvContract.Channels.COLUMN_DISPLAY_NAME,
-                TvContract.Channels.COLUMN_LOGO_URI,
+                LOGO_URI,
                 TvContract.Channels.COLUMN_DESCRIPTION
             ),
             null,
@@ -51,7 +51,7 @@ object ContentProviderHelper {
                 TvContract.PreviewPrograms._ID,
                 TvContract.PreviewPrograms.COLUMN_CHANNEL_ID,
                 TvContract.PreviewPrograms.COLUMN_TITLE,
-                TvContract.PreviewPrograms.COLUMN_DESCRIPTION,
+                DESCRIPTION,
                 TvContract.PreviewPrograms.COLUMN_POSTER_ART_URI,
                 TvContract.PreviewPrograms.COLUMN_THUMBNAIL_URI,
                 TvContract.PreviewPrograms.COLUMN_DURATION_MILLIS,
@@ -87,9 +87,9 @@ object ContentProviderHelper {
             arrayOf(
                 TvContract.WatchNextPrograms._ID,
                 TvContract.WatchNextPrograms.COLUMN_TITLE,
-                TvContract.WatchNextPrograms.COLUMN_DESCRIPTION,
+                DESCRIPTION,
                 TvContract.WatchNextPrograms.COLUMN_POSTER_ART_URI,
-                TvContract.WatchNextPrograms.COLUMN_PROGRESS_PERCENT,
+                PROGRESS_PERCENT,
                 TvContract.WatchNextPrograms.COLUMN_DURATION_MILLIS,
                 TvContract.WatchNextPrograms.COLUMN_INTENT_URI
             ),
