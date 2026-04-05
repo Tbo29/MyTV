@@ -1,13 +1,9 @@
 package com.example.androidtvapp.utils
 
 import android.content.ContentResolver
-import android.media.tv.TvContract
-import android.net.Uri
-
-// Data classes
-data class Channel(val id: Long, val name: String)
-data class PreviewProgram(val id: Long, val title: String)
-data class WatchNextProgram(val id: Long, val title: String)
+import com.example.androidtvapp.models.Channel
+import com.example.androidtvapp.models.PreviewProgram
+import com.example.androidtvapp.models.WatchNextProgram
 
 object ContentProviderHelper {
     fun getChannels(contentResolver: ContentResolver): List<Channel> {
