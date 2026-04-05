@@ -4,7 +4,7 @@ import android.content.ContentResolver
 import android.media.tv.TvContract
 import android.net.Uri
 
-// Data classes for the helper
+// Data classes
 data class Channel(val id: Long, val name: String)
 data class PreviewProgram(val id: Long, val title: String)
 data class WatchNextProgram(val id: Long, val title: String)
