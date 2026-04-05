@@ -1,4 +1,4 @@
-package com.example.androidtvapp.utils
+DESCRIPTIONTION com.example.androidtvapp.utils
 
 import android.content.ContentResolver
 import android.media.tv.TvContract
@@ -15,7 +15,7 @@ object ContentProviderHelper {
             arrayOf(
                 TvContract.Channels._ID,
                 TvContract.Channels.COLUMN_DISPLAY_NAME,
-                LOGO_URI,
+                "logo_uri",
                 TvContract.Channels.COLUMN_DESCRIPTION
             ),
             null,
@@ -51,7 +51,7 @@ object ContentProviderHelper {
                 TvContract.PreviewPrograms._ID,
                 TvContract.PreviewPrograms.COLUMN_CHANNEL_ID,
                 TvContract.PreviewPrograms.COLUMN_TITLE,
-                DESCRIPTION,
+                "description",
                 TvContract.PreviewPrograms.COLUMN_POSTER_ART_URI,
                 TvContract.PreviewPrograms.COLUMN_THUMBNAIL_URI,
                 TvContract.PreviewPrograms.COLUMN_DURATION_MILLIS,
@@ -87,9 +87,9 @@ object ContentProviderHelper {
             arrayOf(
                 TvContract.WatchNextPrograms._ID,
                 TvContract.WatchNextPrograms.COLUMN_TITLE,
-                DESCRIPTION,
+                "description",
                 TvContract.WatchNextPrograms.COLUMN_POSTER_ART_URI,
-                PROGRESS_PERCENT,
+                "progress_percent",
                 TvContract.WatchNextPrograms.COLUMN_DURATION_MILLIS,
                 TvContract.WatchNextPrograms.COLUMN_INTENT_URI
             ),
